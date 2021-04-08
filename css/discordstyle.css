@@ -16,12 +16,12 @@ header{
      text-decoration: none;
      color: white;
      font-weight: bold;
-     font-size: 30px;
+     font-size: 25px;
  }
 
 .navbar {
-     margin-right: auto;
-     margin-left: auto;
+     margin-right: 100px;
+     margin-left: 0px;
  }
 
 .nav-item {
@@ -63,12 +63,11 @@ header{
 	background-color: rgb(50, 97, 224);
 	color: white;
 	height: 625px;
-	background-image: url("../assets/frog-left-top.svg");
-	background-position: bottom left;
+	background-image: url("../assets/frog-left-top.svg"), url("../assets/bunny-top-right.svg");
+	background-position: bottom left, bottom right;
     background-repeat: no-repeat;
 	background-size: 66%;
-	background-position-x: -580px;
-	background-image: url(<img src="../assets/bunny-top-right.svg");
+	background-position-x: -580px, 1090px;
 }
 
 .links-intro {
@@ -83,29 +82,42 @@ header{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.btn-intro {
-	border-radius: 50px;
+#btn-intro {
+	border-radius: 90px;
 	border: none;
-	padding: 20px;
+	padding: 16px;
 	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
+	margin-right: 20px
+}
+
+#btn-intro2 {
+	border-radius: 90px;
+	border: none;
+	padding: 16px;
+	background-color: rgb(39,35,42);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: white;
 }
 
 .invite-text {
-    width: 32%;
+    width: 30%;
     line-height: 1.5;
+    padding-left: 80px;
 }
 
 .hangout-text {
-	width: 20%;
+	width: 28%;
 	line-height: 1.5;
-	display: flex;
+	padding-right: 120px;
 }
 
 .fandom-text {
-	width: 32%;
+	width: 29%;
 	line-height: 1.5;
+	padding-left: 80px;
 }
 
 .call-text: {
@@ -120,22 +132,21 @@ header{
 
 .right {
     display: flex;
-    margin-top: 90px;
-    margin-left: 180px;
-    margin-bottom: 350px;
+    margin-left: 160px;
+    margin-top: 130px;
+    margin-bottom: 130px;
  }
 
 .left {
  	display: flex;
- 	margin-top: 90px;
-    margin-right: 40px;
     margin-left: 160px;
-    margin-bottom: 350px;
+    margin-top: 260px;
+    margin-bottom: 260px;
  }
 
  .center {
  	text-align: center;
- 	margin-top: 90px;
+ 	margin-top: 260px;
  	margin-left: 270px;
 	margin-right: 270px;
 	margin-bottom: 150px;
@@ -144,7 +155,21 @@ header{
 
 .middle {
 	text-align: center;
+	padding-bottom: 70px;
 }
 
+.btn-last {
+	border-radius: 90px;
+	border: none;
+	padding: 16px;
+	background-color: rgb(115,136,217);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: white;
+}
 
+#last-paragraph {
+	text-align: center;
+	font-size: 20px;
+}
 
