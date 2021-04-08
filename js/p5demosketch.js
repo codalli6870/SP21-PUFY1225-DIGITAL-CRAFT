@@ -5,7 +5,7 @@ function setup(){
 
 //runs FOREVER
 function draw(){
-	background("white");
+	background("whiteee");
 	stroke("black");
 	strokeWeight(10);
 	fill("red");
