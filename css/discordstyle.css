@@ -2,58 +2,149 @@
 	property: value;
 }*/
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 body{
    font-family: 'Source Sans Pro', sans-serif;
    margin: 0;
 }
 
+header{
+	font-size: 16px;
+}
+
+.logo {
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     font-size: 30px;
+ }
+
+.navbar {
+     margin-right: auto;
+     margin-left: auto;
+ }
+
 .nav-item {
+	font-weight:bold;
 	text-decoration: none;
-	padding-right: 50px;
+	padding-left: 50px;
 	color: white;
 }
 
 .top-header {
-	display: flex;
 	justify-content: space-between;
-	margin-left: 250px;
-	margin-right: 250px;
-	padding-top: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-top: 25px;
+	display: flex;
 }
 
 .center-intro {
 	text-align: center;
-	width: 700px;
+	width: 725px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 150px;
 }
 
 .title {
-	font-size: 50px;
+	font-weight:bold;
+	font-size: 56px;
 }
 
 .description {
-	margin-top: 20px;
+	font-weight: normal;
+	margin-top: 30px;
+	font-size: 20px;
+	line-height: 1.5;
 }
 
 .top-section {
-	background-color: blue;
+	background-color: rgb(50, 97, 224);
 	color: white;
-	height: 500px;
-	background-image: url("frog.svg");
+	height: 625px;
+	background-image: url("../assets/frog-left-top.svg");
 	background-position: bottom left;
     background-repeat: no-repeat;
-	background-size: 50%;
-	background-position-x: -250px;
+	background-size: 66%;
+	background-position-x: -580px;
+	background-image: url(<img src="../assets/bunny-top-right.svg");
 }
 
-.open-btn {
+.links-intro {
+	padding-top: 10px;
+}
+
+.login-btn {
 	border-radius: 50px;
 	border: none;
 	padding: 15px;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.h3 {
-	
+.btn-intro {
+	border-radius: 50px;
+	border: none;
+	padding: 20px;
+	background-color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
 }
+
+.invite-text {
+    width: 32%;
+    line-height: 1.5;
+}
+
+.hangout-text {
+	width: 20%;
+	line-height: 1.5;
+	display: flex;
+}
+
+.fandom-text {
+	width: 32%;
+	line-height: 1.5;
+}
+
+.call-text: {
+	text-align: center;
+	line-height: 1.5;
+
+}
+.paragraphs {
+	font-size: 20px;
+	text-align: left;
+}
+
+.right {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin-bottom: 350px;
+ }
+
+.left {
+ 	display: flex;
+ 	margin-top: 90px;
+    margin-right: 40px;
+    margin-left: 160px;
+    margin-bottom: 350px;
+ }
+
+ .center {
+ 	text-align: center;
+ 	margin-top: 90px;
+ 	margin-left: 270px;
+	margin-right: 270px;
+	margin-bottom: 150px;
+	line-height: 1.5;
+ }
+
+.middle {
+	text-align: center;
+}
+
+
+
