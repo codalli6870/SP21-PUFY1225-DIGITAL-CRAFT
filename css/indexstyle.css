@@ -1,0 +1,22 @@
+/*selector{
+	property: value;
+}*/
+
+@import('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
+body{
+ 	font-family: 'Lexend', sans-serif;
+   margin: 100px;
+}
+
+.paragraphs {
+	text-decoration: none;
+}
+
+.first-section {
+	text-align: center;
+}
+
+.second-section {
+	margin-top: 80px;
+}
+
