@@ -5,7 +5,7 @@ function setup(){
 
 //runs FOREVER
 function draw(){
-	background("whiteee");
+	background("white");
 	stroke("black");
 	strokeWeight(10);
 	fill("red");
@@ -18,11 +18,4 @@ function draw(){
 	rect(255, 370, 105, 30);
 	noFill();
 	rect(150, 200, 170, 210);
-	
-
-	
-
-
-
-
 }
