@@ -4,14 +4,13 @@ let g = 15;
 
 function setup() {
   createCanvas(600, 600);
-  noFill();
-  background("white");
+  background(51);
 }
 
 function draw_sketch() {
   strokeWeight(4);
-  stroke(random(50,250));
-  //random grayscale color
+  stroke(random(51,150));
+  //random grayscale stroke
   x = random(0, 600);
   y = random(0, 600);
   ellipse(x, y, g);
@@ -20,5 +19,5 @@ function draw_sketch() {
 function draw() {
   draw_sketch(); 
 }
-//draws same ellipses randomly within canvas size
+//draws ellipses randomly within canvas size
 
