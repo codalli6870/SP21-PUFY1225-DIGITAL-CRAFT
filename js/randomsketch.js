@@ -1,6 +1,5 @@
 let x, y;
 let g = 15;
-//variables
 
 function setup() {
   createCanvas(600, 600);
