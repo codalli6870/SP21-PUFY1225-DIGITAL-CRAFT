@@ -6,6 +6,7 @@ function setup() {
   createCanvas(600, 600);
   background(51);
   noFill();
+  noLoop();
 }
 //looped
 
@@ -18,10 +19,9 @@ function draw_sketch() {
 }
 
 function draw() {
-  if (draw_sketch()<=10) {
-    draw_sketch(); 
-  } else {
-
+  for (var i = 0; i < 300; i++) {
+    draw_sketch();
   }
-
+}
 //draws rectangles randomly within canvas size
+
