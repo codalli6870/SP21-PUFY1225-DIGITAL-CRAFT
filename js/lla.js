@@ -1,4 +1,5 @@
 const wid=150
+//const variable
 
 function setup() {
   createCanvas(600, 600);
@@ -6,6 +7,7 @@ function setup() {
   noLoop();
   stroke("white");
 }
+//no repeats
 
 function draw_sketch() {
   for (var i=10; i<width; i+=40) {
@@ -18,8 +20,9 @@ function draw_sketch() {
     line(i, wid*2, i+i/1.4, 600);
   }
 }
+//creates strokes, increasing width from each other
 
 function draw () {
   draw_sketch();
 }
-line(600, wid*2, i-i/1.5, 80);
+//draws lines
