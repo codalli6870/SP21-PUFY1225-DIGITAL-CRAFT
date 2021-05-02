@@ -2,7 +2,7 @@ const wid=150
 //const variable
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 600, SVG);
   background("black");
   noLoop();
   stroke("white");
