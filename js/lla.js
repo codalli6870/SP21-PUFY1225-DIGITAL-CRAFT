@@ -24,7 +24,8 @@ function draw_sketch() {
 
 function draw () {
   draw_sketch();
+
+  save();
 }
 //draws lines
 
-save();
