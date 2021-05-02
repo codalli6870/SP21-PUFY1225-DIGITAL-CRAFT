@@ -5,7 +5,6 @@ let g = 150;
 function setup() {
   createCanvas(600, 600);
   background(51);
-  noFill();
   noLoop();
 }
 //looped
@@ -13,6 +12,7 @@ function setup() {
 function draw_sketch() {
   strokeWeight(4);
   stroke(random(0,300));
+  fill(30,20,20,100);
   x = random(0, 600);
   y = random(0, 600);
   rect(x, y, random(50,150));
