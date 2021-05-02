@@ -19,7 +19,7 @@ function draw_sketch() {
 }
 
 function draw() {
-  for (var i = 0; i < 300; i++) {
+  for (var i = 0; i < 100; i++) {
     draw_sketch();
   }
 }
