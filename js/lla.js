@@ -26,3 +26,5 @@ function draw () {
   draw_sketch();
 }
 //draws lines
+
+save();
