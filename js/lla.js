@@ -1,6 +1,4 @@
 const wid=150
-const widstroke=10
-let y1=0
 
 function setup() {
   createCanvas(600, 600);
